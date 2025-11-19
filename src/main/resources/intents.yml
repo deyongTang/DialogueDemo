@@ -1,0 +1,20 @@
+- id: faq_shipping
+  actionType: FAQ
+  keywords:
+    - 物流
+    - 发货
+    - 配送
+  replyTemplate: "我们的订单由顺丰配送，通常 1-3 天送达。"
+- id: order_status
+  actionType: ORDER_STATUS
+  keywords:
+    - 订单
+    - 进度
+  replyTemplate: "${orderStatus}。如需人工帮助请留言。"
+- id: handoff
+  actionType: HUMAN_HANDOFF
+  keywords:
+    - 人工
+    - 客服
+    - 电话
+  replyTemplate: "稍等，我帮您转接人工客服。"
